@@ -21,6 +21,5 @@ RUN npm run build
 
 # Expõe a porta da aplicação
 EXPOSE 3000
-
 # Comando para iniciar a aplicação usando PM2
 CMD ["pm2-runtime", "dist/main.js"]
